@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Make:</strong>
+  <%= @ford.make %>
+</p>
+
+<p>
+  <strong>Model:</strong>
+  <%= @ford.model %>
+</p>
+
+<p>
+  <strong>Year:</strong>
+  <%= @ford.year %>
+</p>
+
+<%= link_to 'Edit', edit_ford_path(@ford) %> |
+<%= link_to 'Back', fords_path %>
